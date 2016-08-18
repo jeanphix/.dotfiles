@@ -34,3 +34,5 @@ use_env() {
     fi
 }
 source $DOTFILES/.autoenv/activate.sh
+
+alias gr='[ ! -z `git rev-parse --show-cdup` ] && cd `git rev-parse --show-cdup || pwd`'
