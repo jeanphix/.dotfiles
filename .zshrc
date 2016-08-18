@@ -9,3 +9,6 @@ plugins=(git)
 
 # GB keyboard layout
 setxkbmap gb
+
+# French accent - see: http://algo.epfl.ch/~didier/qwerty.html
+xmodmap $DOTFILES/.xmodmaprc
