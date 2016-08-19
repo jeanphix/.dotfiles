@@ -40,6 +40,10 @@ set smartcase                         " ... unless they contain at least one cap
 "" ColorScheme
 colorscheme hybrid
 
+""" CtrlP
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_working_path_mode = 'r'
+
 "" Syntastic
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
