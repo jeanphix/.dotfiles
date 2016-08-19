@@ -1,4 +1,10 @@
 set nocompatible                      " choose no compatibility with legacy vi
+
+" set default 'runtimepath'
+let &runtimepath = printf('%s/vimfiles,%s,%s/vimfiles/after', $VIM, $VIMRUNTIME, $VIM)
+let s:portable = expand('<sfile>:p:h')
+let &runtimepath = printf('%s,%s,%s/after', s:portable, &runtimepath, s:portable)
+
 syntax enable
 set encoding=utf-8
 set showcmd                           " display incomplete commands
@@ -27,3 +33,6 @@ set hlsearch                          " highlight matches
 set incsearch                         " incremental searching
 set ignorecase                        " searches are case insensitive...
 set smartcase                         " ... unless they contain at least one capital letter
+
+"" ColorScheme
+colorscheme hybrid
