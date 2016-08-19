@@ -36,3 +36,11 @@ use_env() {
 source $DOTFILES/.autoenv/activate.sh
 
 alias gr='[ ! -z `git rev-parse --show-cdup` ] && cd `git rev-parse --show-cdup || pwd`'
+
+# 256
+export TERM=xterm-256color
+
+# Vim
+VIM_ALIAS="vim -u $DOTFILES/.vim/.vimrc"
+alias vim=$VIM_ALIAS
+export EDITOR=$VIM_ALIAS
