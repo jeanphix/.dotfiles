@@ -16,3 +16,6 @@
 [submodule ".vim/bundle/jedi"]
 	path = .vim/bundle/jedi
 	url = https://github.com/davidhalter/jedi-vim.git
+[submodule ".vim/bundle/racer"]
+	path = .vim/bundle/racer
+	url = https://github.com/racer-rust/vim-racer.git
