@@ -5,6 +5,9 @@ let &runtimepath = printf('%s/vimfiles,%s,%s/vimfiles/after', $VIM, $VIMRUNTIME,
 let s:portable = expand('<sfile>:p:h')
 let &runtimepath = printf('%s,%s,%s/after', s:portable, &runtimepath, s:portable)
 
+""" Pathogen
+call pathogen#infect()
+
 syntax enable
 set encoding=utf-8
 set showcmd                           " display incomplete commands
