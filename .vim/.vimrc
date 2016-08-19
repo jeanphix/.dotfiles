@@ -44,6 +44,9 @@ colorscheme hybrid
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_working_path_mode = 'r'
 
+"" Force saving files that require root permission
+cmap w!! w !sudo tee > /dev/null %
+
 "" Syntastic
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
