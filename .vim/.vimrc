@@ -57,5 +57,9 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
+"" Jedi
+let g:jedi#use_splits_not_buffers = "bottom"
+let g:jedi#show_call_signatures = "0"
+
 hi Normal ctermbg=none
 highlight NonText ctermbg=none
