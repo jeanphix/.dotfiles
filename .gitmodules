@@ -25,3 +25,6 @@
 [submodule ".vim/bundle/gitgutter"]
 	path = .vim/bundle/gitgutter
 	url = https://github.com/airblade/vim-gitgutter.git
+[submodule ".vim/bundle/closetag"]
+	path = .vim/bundle/closetag
+	url = https://github.com/alvan/vim-closetag.git
