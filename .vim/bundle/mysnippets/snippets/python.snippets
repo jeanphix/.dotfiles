@@ -1,0 +1,12 @@
+# New decorator
+snippet dec
+	from functools import wraps
+
+
+	def ${1:DecoratorName}(f):
+		@wraps(f)
+		def wrapper(*args, **kwargs):
+			${0:${VISUAL}}
+			return f(*args, **kwargs)
+
+		return wrapper
