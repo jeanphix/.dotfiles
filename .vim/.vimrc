@@ -38,7 +38,7 @@ set ignorecase                        " searches are case insensitive...
 set smartcase                         " ... unless they contain at least one capital letter
 
 "" ColorScheme
-colorscheme hybrid
+colorscheme monokai
 
 """ CtrlP
 let g:ctrlp_map = '<c-p>'
