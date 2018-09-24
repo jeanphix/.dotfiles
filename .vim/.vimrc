@@ -63,3 +63,6 @@ let g:jedi#show_call_signatures = "0"
 
 hi Normal ctermbg=none
 highlight NonText ctermbg=none
+
+""" Black
+let g:black_linelength=79
